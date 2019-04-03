@@ -1,0 +1,42 @@
+[2018-05-09 14:55:27.331] [jointLog] [info] parsing read library format
+[2018-05-09 14:55:27.331] [jointLog] [info] There is 1 library.
+[2018-05-09 14:55:27.418] [jointLog] [info] Loading Quasi index
+[2018-05-09 14:55:27.418] [jointLog] [info] Loading 32-bit quasi index
+[2018-05-09 14:55:32.976] [jointLog] [info] done
+[2018-05-09 14:55:32.976] [jointLog] [info] Index contained 57918 targets
+[2018-05-09 14:55:33.517] [jointLog] [info] Automatically detected most likely library type as U
+[2018-05-09 14:56:32.996] [jointLog] [info] Computed 98880 rich equivalence classes for further processing
+[2018-05-09 14:56:32.996] [jointLog] [info] Counted 17221020 total reads in the equivalence classes 
+[2018-05-09 14:56:33.029] [jointLog] [info] Mapping rate = 64.0728%
+
+[2018-05-09 14:56:33.029] [jointLog] [info] finished quantifyLibrary()
+[2018-05-09 14:56:33.029] [jointLog] [info] Starting optimizer
+[2018-05-09 14:56:33.098] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-05-09 14:56:33.105] [jointLog] [info] iteration = 0 | max rel diff. = 210.518
+[2018-05-09 14:56:32.997] [fileLog] [info] 
+At end of round 0
+==================
+Observed 26877266 total fragments (26877266 in most recent round)
+
+[2018-05-09 14:56:33.611] [jointLog] [info] iteration = 100 | max rel diff. = 0.10601
+[2018-05-09 14:56:34.112] [jointLog] [info] iteration = 200 | max rel diff. = 0.0598869
+[2018-05-09 14:56:34.614] [jointLog] [info] iteration = 300 | max rel diff. = 0.0362161
+[2018-05-09 14:56:35.111] [jointLog] [info] iteration = 400 | max rel diff. = 0.0268551
+[2018-05-09 14:56:35.595] [jointLog] [info] iteration = 500 | max rel diff. = 0.0249504
+[2018-05-09 14:56:36.079] [jointLog] [info] iteration = 600 | max rel diff. = 0.0243899
+[2018-05-09 14:56:36.565] [jointLog] [info] iteration = 700 | max rel diff. = 0.0149907
+[2018-05-09 14:56:37.054] [jointLog] [info] iteration = 800 | max rel diff. = 0.0137892
+[2018-05-09 14:56:37.545] [jointLog] [info] iteration = 900 | max rel diff. = 0.0123076
+[2018-05-09 14:56:38.033] [jointLog] [info] iteration = 1000 | max rel diff. = 0.010601
+[2018-05-09 14:56:38.057] [jointLog] [info] iteration = 1006 | max rel diff. = 0.00999968
+[2018-05-09 14:56:38.062] [jointLog] [info] Finished optimizer
+[2018-05-09 14:56:38.062] [jointLog] [info] writing output 
+
+[2018-05-09 14:56:38.177] [jointLog] [warning] NOTE: Read Lib [raw/B48.fastq.gz] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: quants/raw/B48_quant/lib_format_counts.json for details
+
+[2018-05-09 14:56:38.178] [jointLog] [info] Computing gene-level abundance estimates
+[2018-05-09 14:56:55.809] [jointLog] [info] There were 58867 transcripts mapping to 31901 genes
+[2018-05-09 14:56:55.959] [jointLog] [info] Aggregating expressions to gene level
+[2018-05-09 14:56:56.051] [jointLog] [info] done
